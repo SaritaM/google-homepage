@@ -1,4 +1,9 @@
 .button {
+
+  &:hover {
+    text-decoration: none;
+  }
+
   &--cta {
     margin: 0 8px;
     padding: 9px 23px;
@@ -10,7 +15,18 @@
 
     &:hover {
       color: #fff;
-      text-decoration: none;
+    }
+  }
+
+  &--primary {
+    margin: 4px;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    background-color: rgb(248, 249, 256);
+
+    &:hover {
+      border: 1px solid rgb(218, 220, 224);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
     }
   }
 }
