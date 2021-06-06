@@ -127,6 +127,48 @@ header nav .right-links .text-links li {
   color: #9aa0a6;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #f2f2f2;
+  font-family: "Roboto", arial, sans-serif;
+}
+footer a {
+  color: #70757a;
+}
+footer a:hover {
+  color: #70757a;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  display: inline-block;
+}
+footer ul li a {
+  display: block;
+  padding: 15px;
+}
+
+.footer-1,
+.footer-3 {
+  min-width: 30%;
+}
+
+.footer-3 {
+  text-align: right;
+}
+
+.footer-2 {
+  padding: 15px;
+}
+.footer-2 img {
+  height: 14px;
+  margin-right: 6px;
+}
+
 .button:hover {
   text-decoration: none;
 }
