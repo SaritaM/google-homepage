@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 1.4rem;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav .left-links {
+  font-family: Roboto, arial, sans-serif;
+}
+header nav .left-links ul :first-child {
+  margin-left: 15px;
+}
+header nav .left-links li {
+  margin: 0 5px;
+  padding: 5px;
+}
+header nav .right-links {
+  display: flex;
+  align-items: center;
+}
+header nav .right-links .text-links {
+  padding-right: 15px;
+}
+header nav .right-links .text-links li {
+  padding-left: 15px;
+}
+
+.grid-links {
+  border-radius: 50%;
+}
+.grid-links:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+.grid-svg {
+  height: 24px;
+  width: 24px;
+  margin: 12px;
+}
+
+.button--cta {
+  margin: 0 8px;
+  padding: 9px 23px;
+  border: 1px solid transparent;
+  background-color: #1a73e8;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: 700;
+}
+.button--cta:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
