@@ -87,6 +87,11 @@ header nav .right-links .text-links li {
 
 .middle {
   flex-grow: 1;
+  align-self: center;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .button--cta {
